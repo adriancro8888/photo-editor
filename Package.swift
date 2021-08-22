@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "photo-editor",
+    name: "iOSPhotoEditor",
     products: [
-       .library(name: "photo-editor", targets: ["photo-editor"])
+       .library(name: "photo-editor", targets: ["iOSPhotoEditor"])
    ],
    targets: [
        .target(
-           name: "photo-editor",
-           path: "photo-editor"
+           name: "iOSPhotoEditor",
+           path: "iOSPhotoEditor"
        )
    ]
 )
