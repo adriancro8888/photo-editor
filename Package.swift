@@ -1,21 +1,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyLibrary",
+    name: "photo-editor",
     platforms: [
         .iOS(.v12),
     ],
     products: [
         .library(
-            name: "MyLibrary",
-            targets: ["MyLibrary"]),
+            name: "photo-editor",
+            targets: ["photo-editor"]),
     ],
     dependencies: [
         // no dependencies
     ],
     targets: [
         .target(
-            name: "MyLibrary",
+            name: "photo-editor",
             dependencies: []),
         .testTarget(
             name: "MyLibraryTests",
